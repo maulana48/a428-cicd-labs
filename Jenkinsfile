@@ -8,7 +8,7 @@
         stages {
             stage('Build') {
                 steps {
-                    sh 'npm install'
+                    sh 'npm update && npm install'
                 }
             }
             stage('Test') { 
